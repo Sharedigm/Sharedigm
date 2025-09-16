@@ -509,8 +509,8 @@ body:not(.binary).colored.colorful:not(.dark) .panel .selected .content a, body:
   body:not(.binary).colored.colorful.flat #desktop .desktop.app > .footer-bar,
   body:not(.binary).colored.colorful.flat #desktop.auto .desktop.app > .footer-bar,
   body:not(.binary).colored.colorful.flat #desktop.medium .desktop.app > .footer-bar {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
 }
 /******************************************************************************\
@@ -573,12 +573,12 @@ body:not(.binary).colored.colorful:not(.dark) .panel .selected .content a, body:
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colorful .flat.modals .modal.focused .modal-dialog .modal-header, body:not(.binary).colored.colorful.flat .auto-material.modals .modal.focused .modal-dialog .modal-header {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colorful .flat.modals .modal:not(.focused) .modal-dialog .modal-header, body:not(.binary).colored.colorful.flat .auto-material.modals .modal:not(.focused) .modal-dialog .modal-header {
-    background-color: #e61a1a;
-    border-color: #e61a1a;
+    background-color: #1f69ff;
+    border-color: #1f69ff;
   }
 }
 /******************************************************************************\
@@ -695,16 +695,16 @@ body:not(.binary).colored.colorful #desktop.task-bar-minimized:not(.colorful) .t
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colorful.flat #desktop:not(.task-bar-minimized):not(.colorful) .task-bar .task-list li {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colorful.flat #desktop.coloful:not(.task-bar-minimized) .task-bar .task-list li:not(.colored) {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colorful.flat #desktop.task-bar-minimized:not(.colorful) .task-bar .task-list li:not(.colored) {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
 }
 /******************************************************************************\
@@ -785,8 +785,8 @@ body:not(.binary).colored.colorful #desktop.task-bar-minimized:not(.colorful) .t
   body:not(.binary).colored.colorful.chalk #desktop.auto .desktop.app > .footer-bar,
   body:not(.binary).colored.colorful.chalk #desktop.medium .desktop.app > .footer-bar {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, transparent 15%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -852,13 +852,13 @@ body:not(.binary).colored.colorful #desktop.task-bar-minimized:not(.colorful) .t
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colorful .chalk.modals .modal.focused .modal-dialog .modal-header, body:not(.binary).colored.colorful.chalk .auto-material.modals .modal.focused .modal-dialog .modal-header {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, transparent 15%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colorful .chalk.modals .modal:not(.focused) .modal-dialog .modal-header, body:not(.binary).colored.colorful.chalk .auto-material.modals .modal:not(.focused) .modal-dialog .modal-header {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, transparent 15%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%) no-repeat;
-    background-color: #e61a1a;
-    border-color: #cf1724;
+    background-color: #1f69ff;
+    border-color: #1c5ff2;
   }
 }
 /******************************************************************************\
@@ -945,18 +945,18 @@ body:not(.binary).colored.colorful #desktop.task-bar-minimized:not(.colorful) .t
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colorful.chalk #desktop:not(.task-bar-minimized):not(.colorful) .task-bar .task-list li {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colorful.chalk #desktop.coloful:not(.task-bar-minimized) .task-bar .task-list li:not(.colored) {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colorful.chalk #desktop.task-bar-minimized:not(.colorful) .task-bar .task-list li:not(.colored) {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -1037,8 +1037,8 @@ body:not(.binary).colored.colorful #desktop.task-bar-minimized:not(.colorful) .t
   body:not(.binary).colored.colorful.plastic #desktop.auto .desktop.app > .footer-bar,
   body:not(.binary).colored.colorful.plastic #desktop.medium .desktop.app > .footer-bar {
     background: linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.75) 0%, rgba(0, 0, 0, 0) 15%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0) 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -1104,13 +1104,13 @@ body:not(.binary).colored.colorful #desktop.task-bar-minimized:not(.colorful) .t
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colorful .plastic.modals .modal.focused .modal-dialog .modal-header, body:not(.binary).colored.colorful.plastic .auto-material.modals .modal.focused .modal-dialog .modal-header {
     background: linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.75) 0%, rgba(0, 0, 0, 0) 15%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0) 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colorful .plastic.modals .modal:not(.focused) .modal-dialog .modal-header, body:not(.binary).colored.colorful.plastic .auto-material.modals .modal:not(.focused) .modal-dialog .modal-header {
     background: linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.75) 0%, rgba(0, 0, 0, 0) 15%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0) 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%) no-repeat;
-    background-color: #e61a1a;
-    border-color: #cf1724;
+    background-color: #1f69ff;
+    border-color: #1c5ff2;
   }
 }
 /******************************************************************************\
@@ -1197,18 +1197,18 @@ body:not(.binary).colored.colorful #desktop.task-bar-minimized:not(.colorful) .t
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colorful.plastic #desktop:not(.task-bar-minimized):not(.colorful) .task-bar .task-list li {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colorful.plastic #desktop.coloful:not(.task-bar-minimized) .task-bar .task-list li:not(.colored) {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colorful.plastic #desktop.task-bar-minimized:not(.colorful) .task-bar .task-list li:not(.colored) {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -1288,9 +1288,9 @@ body:not(.binary).colored.colorful #desktop.task-bar-minimized:not(.colorful) .t
   body:not(.binary).colored.colorful.glass #desktop .desktop.app > .footer-bar,
   body:not(.binary).colored.colorful.glass #desktop.auto .desktop.app > .footer-bar,
   body:not(.binary).colored.colorful.glass #desktop.medium .desktop.app > .footer-bar {
-    background: linear-gradient(var(--light-direction), white 0%, transparent 10%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 50%, #ed5959 100%) no-repeat;
-    background-color: rgba(188, 57, 82, 0.8);
-    border-color: #d4404d;
+    background: linear-gradient(var(--light-direction), white 0%, transparent 10%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 50%, #6397ff 100%) no-repeat;
+    background-color: rgba(66, 111, 229, 0.8);
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -1411,36 +1411,36 @@ body:not(.binary).colored.colorful #desktop.task-bar-minimized:not(.colorful) .t
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colorful .glass.modals .modal.focused .modal-dialog .modal-header, body:not(.binary).colored.colorful.glass .auto-material.modals .modal.focused .modal-dialog .modal-header {
-    background: linear-gradient(var(--light-direction), white 0%, transparent 10%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 50%, #ed5959 100%) no-repeat;
-    background-color: rgba(188, 57, 82, 0.8);
-    border-color: #d4404d;
+    background: linear-gradient(var(--light-direction), white 0%, transparent 10%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 50%, #6397ff 100%) no-repeat;
+    background-color: rgba(66, 111, 229, 0.8);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colorful .glass.modals .modal:not(.focused) .modal-dialog .modal-header, body:not(.binary).colored.colorful.glass .auto-material.modals .modal:not(.focused) .modal-dialog .modal-header {
-    background: linear-gradient(var(--light-direction), white 0%, transparent 10%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 50%, #e93131 100%) no-repeat;
-    background-color: rgba(184, 21, 46, 0.8);
-    border-color: #cf1724;
+    background: linear-gradient(var(--light-direction), white 0%, transparent 10%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 50%, #3578ff 100%) no-repeat;
+    background-color: rgba(25, 84, 229, 0.8);
+    border-color: #1c5ff2;
   }
   body:not(.binary).colored.colorful.transparent .glass.modals .modal.focused .modal-dialog .modal-header, body:not(.binary).colored.colorful.transparent.glass .auto-material.modals .modal.focused .modal-dialog .modal-header {
-    background: linear-gradient(var(--light-direction), white 0%, transparent 10%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 50%, #ed5959 100%) no-repeat;
-    background-color: rgba(188, 57, 82, 0.8);
-    border-color: #d4404d;
+    background: linear-gradient(var(--light-direction), white 0%, transparent 10%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 50%, #6397ff 100%) no-repeat;
+    background-color: rgba(66, 111, 229, 0.8);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colorful.transparent .glass.modals .modal:not(.focused) .modal-dialog .modal-header, body:not(.binary).colored.colorful.transparent.glass .auto-material.modals .modal:not(.focused) .modal-dialog .modal-header {
-    background: linear-gradient(var(--light-direction), white 0%, transparent 10%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 50%, #e93131 100%) no-repeat;
-    background-color: rgba(184, 21, 46, 0.8);
-    border-color: #cf1724;
+    background: linear-gradient(var(--light-direction), white 0%, transparent 10%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 50%, #3578ff 100%) no-repeat;
+    background-color: rgba(25, 84, 229, 0.8);
+    border-color: #1c5ff2;
   }
   body:not(.binary).colored.colorful.translucent .glass.modals .modal.focused .modal-dialog .modal-header, body:not(.binary).colored.colorful.translucent.glass .auto-material.modals .modal.focused .modal-dialog .modal-header {
-    background: linear-gradient(var(--light-direction), white 0%, transparent 10%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 50%, #ed5959 100%) no-repeat;
-    background-color: rgba(188, 57, 82, 0.7);
-    border-color: #d4404d;
+    background: linear-gradient(var(--light-direction), white 0%, transparent 10%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 50%, #6397ff 100%) no-repeat;
+    background-color: rgba(66, 111, 229, 0.7);
+    border-color: #4a7df2;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
   }
   body:not(.binary).colored.colorful.translucent .glass.modals .modal:not(.focused) .modal-dialog .modal-header, body:not(.binary).colored.colorful.translucent.glass .auto-material.modals .modal:not(.focused) .modal-dialog .modal-header {
-    background: linear-gradient(var(--light-direction), white 0%, transparent 10%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 50%, #e93131 100%) no-repeat;
-    background-color: rgba(184, 21, 46, 0.7);
-    border-color: #cf1724;
+    background: linear-gradient(var(--light-direction), white 0%, transparent 10%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 50%, #3578ff 100%) no-repeat;
+    background-color: rgba(25, 84, 229, 0.7);
+    border-color: #1c5ff2;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
   }
@@ -1528,19 +1528,19 @@ body:not(.binary).colored.colorful #desktop.task-bar-minimized:not(.colorful) .t
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colorful.glass #desktop:not(.task-bar-minimized):not(.colorful) .task-bar .task-list li {
-    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #fbdada 0%, #ed5959 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(235, 71, 71, 0.5) 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #dce8ff 0%, #6397ff 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(82, 139, 255, 0.5) 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #3961d9;
   }
   body:not(.binary).colored.colorful.glass #desktop.coloful:not(.task-bar-minimized) .task-bar .task-list li:not(.colored) {
-    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #fbdada 0%, #ed5959 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(235, 71, 71, 0.5) 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #dce8ff 0%, #6397ff 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(82, 139, 255, 0.5) 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #3961d9;
   }
   body:not(.binary).colored.colorful.glass #desktop.task-bar-minimized:not(.colorful) .task-bar .task-list li:not(.colored) {
-    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #fbdada 0%, #ed5959 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(235, 71, 71, 0.5) 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #dce8ff 0%, #6397ff 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(82, 139, 255, 0.5) 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #3961d9;
   }
 }
 /******************************************************************************\
@@ -1619,8 +1619,8 @@ body:not(.binary).colored.colorful #desktop.task-bar-minimized:not(.colorful) .t
   body:not(.binary).colored.colorful.metal #desktop .desktop.app > .footer-bar,
   body:not(.binary).colored.colorful.metal #desktop.auto .desktop.app > .footer-bar,
   body:not(.binary).colored.colorful.metal #desktop.medium .desktop.app > .footer-bar {
-    background: linear-gradient(var(--light-direction), #f17e7e 0%, rgba(0, 0, 0, 0) 3px) no-repeat, linear-gradient(var(--light-direction), #f17e7e 0%, rgba(0, 0, 0, 0) 20%) no-repeat, linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(235, 71, 71, 0.5) 50%, rgba(0, 0, 0, 0) 100%), linear-gradient(to bottom, hsl(0, 80%, 60%) 0%, #762463 10%, #ef6c6c 100%);
-    border-color: #d4404d;
+    background: linear-gradient(var(--light-direction), #86aeff 0%, rgba(0, 0, 0, 0) 3px) no-repeat, linear-gradient(var(--light-direction), #86aeff 0%, rgba(0, 0, 0, 0) 20%) no-repeat, linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(82, 139, 255, 0.5) 50%, rgba(0, 0, 0, 0) 100%), linear-gradient(to bottom, hsl(220, 100%, 66%) 0%, #2946bf 10%, #75a2ff 100%);
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -1683,12 +1683,12 @@ body:not(.binary).colored.colorful #desktop.task-bar-minimized:not(.colorful) .t
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colorful .metal.modals .modal.focused .modal-dialog .modal-header, body:not(.binary).colored.colorful.metal .auto-material.modals .modal.focused .modal-dialog .modal-header {
-    background: linear-gradient(var(--light-direction), #f17e7e 0%, rgba(0, 0, 0, 0) 3px) no-repeat, linear-gradient(var(--light-direction), #f17e7e 0%, rgba(0, 0, 0, 0) 20%) no-repeat, linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(235, 71, 71, 0.5) 50%, rgba(0, 0, 0, 0) 100%), linear-gradient(to bottom, hsl(0, 80%, 60%) 0%, #762463 10%, #ef6c6c 100%);
-    border-color: #d4404d;
+    background: linear-gradient(var(--light-direction), #86aeff 0%, rgba(0, 0, 0, 0) 3px) no-repeat, linear-gradient(var(--light-direction), #86aeff 0%, rgba(0, 0, 0, 0) 20%) no-repeat, linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(82, 139, 255, 0.5) 50%, rgba(0, 0, 0, 0) 100%), linear-gradient(to bottom, hsl(220, 100%, 66%) 0%, #2946bf 10%, #75a2ff 100%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colorful .metal.modals .modal:not(.focused) .modal-dialog .modal-header, body:not(.binary).colored.colorful.metal .auto-material.modals .modal:not(.focused) .modal-dialog .modal-header {
-    background: linear-gradient(var(--light-direction), #ee5f5f 0%, rgba(0, 0, 0, 0) 3px) no-repeat, linear-gradient(var(--light-direction), #ee5f5f 0%, rgba(0, 0, 0, 0) 20%) no-repeat, linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(230, 26, 26, 0.5) 50%, rgba(0, 0, 0, 0) 100%), linear-gradient(to bottom, #e61a1a 0%, #730d4d 10%, #eb4848 100%);
-    border-color: #cf1724;
+    background: linear-gradient(var(--light-direction), #6296ff 0%, rgba(0, 0, 0, 0) 3px) no-repeat, linear-gradient(var(--light-direction), #6296ff 0%, rgba(0, 0, 0, 0) 20%) no-repeat, linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(31, 105, 255, 0.5) 50%, rgba(0, 0, 0, 0) 100%), linear-gradient(to bottom, #1f69ff 0%, #1035bf 10%, #4c87ff 100%);
+    border-color: #1c5ff2;
   }
 }
 /******************************************************************************\
@@ -1774,19 +1774,19 @@ body:not(.binary).colored.colorful #desktop.task-bar-minimized:not(.colorful) .t
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colorful.metal #desktop:not(.task-bar-minimized):not(.colorful) .task-bar .task-list li {
-    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(239, 108, 108, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #eb4747 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(235, 71, 71, 0.5) 66%, #f17e7e 100%) no-repeat;
-    background-color: #762463;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(117, 162, 255, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #528bff 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(82, 139, 255, 0.5) 66%, #86aeff 100%) no-repeat;
+    background-color: #2946bf;
+    border-color: #3961d9;
   }
   body:not(.binary).colored.colorful.metal #desktop.coloful:not(.task-bar-minimized) .task-bar .task-list li:not(.colored) {
-    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(239, 108, 108, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #eb4747 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(235, 71, 71, 0.5) 66%, #f17e7e 100%) no-repeat;
-    background-color: #762463;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(117, 162, 255, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #528bff 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(82, 139, 255, 0.5) 66%, #86aeff 100%) no-repeat;
+    background-color: #2946bf;
+    border-color: #3961d9;
   }
   body:not(.binary).colored.colorful.metal #desktop.task-bar-minimized:not(.colorful) .task-bar .task-list li:not(.colored) {
-    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(239, 108, 108, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #eb4747 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(235, 71, 71, 0.5) 66%, #f17e7e 100%) no-repeat;
-    background-color: #762463;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(117, 162, 255, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #528bff 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(82, 139, 255, 0.5) 66%, #86aeff 100%) no-repeat;
+    background-color: #2946bf;
+    border-color: #3961d9;
   }
 }
 /******************************************************************************\

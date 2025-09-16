@@ -1447,28 +1447,28 @@ body:not(.binary).colored.flat-buttons .btn:not(.btn-primary):not(.colored):not(
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.flat-buttons .btn.btn-primary, body:not(.binary).colored.colored.flat.auto-buttons .btn.btn-primary {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-buttons .btn.btn-primary:hover, body:not(.binary).colored.colored.flat.auto-buttons .btn.btn-primary:hover {
-    background-color: #e61a1a;
-    border-color: #e61a1a;
+    background-color: #1f69ff;
+    border-color: #1f69ff;
   }
   body:not(.binary).colored.colored.flat-buttons .btn.btn-primary:active, body:not(.binary).colored.colored.flat.auto-buttons .btn.btn-primary:active {
-    background-color: #b81414;
-    border-color: #b81414;
+    background-color: #004eeb;
+    border-color: #004eeb;
   }
   body:not(.binary).colored.colored.flat-buttons .btn.btn-primary:disabled, body:not(.binary).colored.colored.flat.auto-buttons .btn.btn-primary:disabled {
-    background-color: #c67487;
-    border-color: #c67487;
+    background-color: #7996e3;
+    border-color: #7996e3;
   }
   body:not(.binary).colored.colored.flat-buttons .btn.btn-primary:disabled:hover, body:not(.binary).colored.colored.flat.auto-buttons .btn.btn-primary:disabled:hover {
-    background-color: #b75068;
-    border-color: #b75068;
+    background-color: #4f75da;
+    border-color: #4f75da;
   }
   body:not(.binary).colored.colored.flat-buttons .btn.btn-primary:disabled:active, body:not(.binary).colored.colored.flat.auto-buttons .btn.btn-primary:disabled:active {
-    background-color: #963e52;
-    border-color: #963e52;
+    background-color: #2b57cb;
+    border-color: #2b57cb;
   }
 }
 /******************************************************************************\
@@ -1619,12 +1619,12 @@ body:not(.binary).colored.colored .menu > li:not(.dropdown-toggle):not(.disabled
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.flat-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle, body:not(.binary).colored.colored.flat-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:focus, body:not(.binary).colored.colored.flat.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle, body:not(.binary).colored.colored.flat.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:focus {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:active, body:not(.binary).colored.colored.flat.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:active {
-    background-color: #e61a1a;
-    border-color: #e61a1a;
+    background-color: #1f69ff;
+    border-color: #1f69ff;
   }
 }
 /******************************************************************************\
@@ -1691,16 +1691,16 @@ body:not(.binary).colored.colored .menu > li:not(.dropdown-toggle):not(.disabled
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.flat-menus .menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.flat-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.flat.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.flat.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled).open > a {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.flat-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.flat.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.flat.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:hover {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.flat-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.flat.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.flat.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:active {
-    background-color: #e61a1a;
-    border-color: #e61a1a;
+    background-color: #1f69ff;
+    border-color: #1f69ff;
   }
 }
 /******************************************************************************\
@@ -1798,8 +1798,8 @@ body:not(.binary).colored.colored .navbar .indicator .bar .inner {
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.flat .navbar .indicator .bar .inner {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
 }
 /******************************************************************************\
@@ -1879,8 +1879,8 @@ body:not(.binary).colored.colored .flickity-page-dots .dot.is-selected {
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.flat .flickity-page-dots .dot.is-selected {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
 }
 /******************************************************************************\
@@ -1977,10 +1977,10 @@ body:not(.binary).colored.colored ::-webkit-scrollbar-thumb:active {
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.flat-scrollbars ::-webkit-scrollbar-thumb:active:horizontal, body:not(.binary).colored.colored.flat.auto-scrollbars ::-webkit-scrollbar-thumb:active:horizontal {
-    background-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-scrollbars ::-webkit-scrollbar-thumb:active:vertical, body:not(.binary).colored.colored.flat.auto-scrollbars ::-webkit-scrollbar-thumb:active:vertical {
-    background-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
   }
 }
 /******************************************************************************\
@@ -2216,49 +2216,49 @@ body:not(.binary).flat-sliders.colored input[type=range].colored.error::-ms-thum
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.flat-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active, body:not(.binary).colored.colored.flat.auto-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active.round, body:not(.binary).colored.colored.flat.auto-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active.round {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active.rounded, body:not(.binary).colored.colored.flat.auto-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active.rounded {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active.long.round, body:not(.binary).colored.colored.flat.auto-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active.long.round {
-    background-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-sliders input[type=range]:not(.colored)::-moz-range-thumb:active, body:not(.binary).colored.colored.flat.auto-sliders input[type=range]:not(.colored)::-moz-range-thumb:active {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-sliders input[type=range]:not(.colored)::-moz-range-thumb:active.round, body:not(.binary).colored.colored.flat.auto-sliders input[type=range]:not(.colored)::-moz-range-thumb:active.round {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-sliders input[type=range]:not(.colored)::-moz-range-thumb:active.rounded, body:not(.binary).colored.colored.flat.auto-sliders input[type=range]:not(.colored)::-moz-range-thumb:active.rounded {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-sliders input[type=range]:not(.colored)::-moz-range-thumb:active.long.round, body:not(.binary).colored.colored.flat.auto-sliders input[type=range]:not(.colored)::-moz-range-thumb:active.long.round {
-    background-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-sliders input[type=range]:not(.colored)::-ms-thumb:active, body:not(.binary).colored.colored.flat.auto-sliders input[type=range]:not(.colored)::-ms-thumb:active {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-sliders input[type=range]:not(.colored)::-ms-thumb:active.round, body:not(.binary).colored.colored.flat.auto-sliders input[type=range]:not(.colored)::-ms-thumb:active.round {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-sliders input[type=range]:not(.colored)::-ms-thumb:active.rounded, body:not(.binary).colored.colored.flat.auto-sliders input[type=range]:not(.colored)::-ms-thumb:active.rounded {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.flat-sliders input[type=range]:not(.colored)::-ms-thumb:active.long.round, body:not(.binary).colored.colored.flat.auto-sliders input[type=range]:not(.colored)::-ms-thumb:active.long.round {
-    background-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
   }
 }
 /******************************************************************************\
@@ -2371,8 +2371,8 @@ body:not(.binary).colored.colored ul.nav-tabs > li.active > a:focus label {
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.flat-tabs ul.nav-tabs > li.active > a, body:not(.binary).colored.colored.flat-tabs ul.nav-tabs > li.active > a:focus, body:not(.binary).colored.colored.flat.auto-tabs ul.nav-tabs > li.active > a, body:not(.binary).colored.colored.flat.auto-tabs ul.nav-tabs > li.active > a:focus {
-    background-color: hsl(0, 80%, 60%);
-    border-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
+    border-color: hsl(220, 100%, 66%);
   }
 }
 /******************************************************************************\
@@ -2621,33 +2621,33 @@ body:not(.binary).colored.chalk-buttons .btn:not(.btn-primary):not(.colored):not
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.chalk-buttons .btn.btn-primary, body:not(.binary).colored.colored.chalk.auto-buttons .btn.btn-primary {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colored.chalk-buttons .btn.btn-primary:hover, body:not(.binary).colored.colored.chalk.auto-buttons .btn.btn-primary:hover {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: #e61a1a;
-    border-color: #cf1724;
+    background-color: #1f69ff;
+    border-color: #1c5ff2;
   }
   body:not(.binary).colored.colored.chalk-buttons .btn.btn-primary:active, body:not(.binary).colored.colored.chalk.auto-buttons .btn.btn-primary:active {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: #b81414;
-    border-color: #a6121f;
+    background-color: #004eeb;
+    border-color: #0046e0;
   }
   body:not(.binary).colored.colored.chalk-buttons .btn.btn-primary:disabled, body:not(.binary).colored.colored.chalk.auto-buttons .btn.btn-primary:disabled {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: #c67487;
-    border-color: #b26886;
+    background-color: #7996e3;
+    border-color: #6d87d9;
   }
   body:not(.binary).colored.colored.chalk-buttons .btn.btn-primary:disabled:hover, body:not(.binary).colored.colored.chalk.auto-buttons .btn.btn-primary:disabled:hover {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: #b75068;
-    border-color: #a5486a;
+    background-color: #4f75da;
+    border-color: #4769d1;
   }
   body:not(.binary).colored.colored.chalk-buttons .btn.btn-primary:disabled:active, body:not(.binary).colored.colored.chalk.auto-buttons .btn.btn-primary:disabled:active {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: #963e52;
-    border-color: #873857;
+    background-color: #2b57cb;
+    border-color: #274ec3;
   }
 }
 /******************************************************************************\
@@ -2729,13 +2729,13 @@ body:not(.binary).colored.chalk-buttons .btn:not(.btn-primary):not(.colored):not
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.chalk-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle, body:not(.binary).colored.colored.chalk-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:focus, body:not(.binary).colored.colored.chalk.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle, body:not(.binary).colored.colored.chalk.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:focus {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, transparent 10px) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.1) 0%, transparent 10px) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colored.chalk-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:active, body:not(.binary).colored.colored.chalk.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:active {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, transparent 10px) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.1) 0%, transparent 10px) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%) no-repeat;
-    background-color: #e61a1a;
-    border-color: #cf1724;
+    background-color: #1f69ff;
+    border-color: #1c5ff2;
   }
 }
 /******************************************************************************\
@@ -2806,18 +2806,18 @@ body:not(.binary).colored.chalk-buttons .btn:not(.btn-primary):not(.colored):not
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.chalk-menus .menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.chalk-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.chalk.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.chalk.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled).open > a {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, transparent 10px) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.1) 0%, transparent 10px) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colored.chalk-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.chalk-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.chalk.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.chalk.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:hover {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, transparent 10px) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.1) 0%, transparent 10px) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colored.chalk-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.chalk-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.chalk.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.chalk.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:active {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, transparent 10px) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.1) 0%, transparent 10px) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%) no-repeat;
-    background-color: #e61a1a;
-    border-color: #cf1724;
+    background-color: #1f69ff;
+    border-color: #1c5ff2;
   }
 }
 /******************************************************************************\
@@ -2894,8 +2894,8 @@ body:not(.binary).colored.chalk-buttons .btn:not(.btn-primary):not(.colored):not
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.chalk .navbar .indicator .bar .inner {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, transparent 5px) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.1) 0%, transparent 5px) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.5) calc(5% + 2px), rgba(255, 255, 255, 0.5) calc(15% + 2px), transparent calc(50% + 2px)) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -2956,8 +2956,8 @@ body:not(.binary).colored.chalk-buttons .btn:not(.btn-primary):not(.colored):not
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.chalk .flickity-page-dots .dot.is-selected {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -3083,10 +3083,10 @@ body:not(.binary).colored.chalk-buttons .btn:not(.btn-primary):not(.colored):not
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.chalk-scrollbars ::-webkit-scrollbar-thumb:active:horizontal, body:not(.binary).colored.colored.chalk.auto-scrollbars ::-webkit-scrollbar-thumb:active:horizontal {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, transparent 5px) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.1) 0%, transparent 5px) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.5) calc(5% + 2px), rgba(255, 255, 255, 0.5) calc(15% + 2px), transparent calc(50% + 2px)) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
+    background-color: hsl(220, 100%, 66%);
   }
   body:not(.binary).colored.colored.chalk-scrollbars ::-webkit-scrollbar-thumb:active:vertical, body:not(.binary).colored.colored.chalk.auto-scrollbars ::-webkit-scrollbar-thumb:active:vertical {
-    background: linear-gradient(to top, color-mix(in srgb, var(--ambient-color) 10%, hsl(0, 80%, 60%)) 0%, transparent 5px) no-repeat, linear-gradient(to bottom, color-mix(in srgb, var(--ambient-color) 10%, hsl(0, 80%, 60%)) 0%, transparent 5px) no-repeat, linear-gradient(to right, color-mix(in srgb, white 25%, transparent) 0%, color-mix(in srgb, white 50%, transparent) calc(5% + 2px), color-mix(in srgb, white 50%, transparent) calc(15% + 2px), transparent calc(50% + 2px)) no-repeat, linear-gradient(to right, color-mix(in srgb, var(--light-color) 10%, hsl(0, 80%, 60%)) 0%, hsl(0, 80%, 60%) 50%, color-mix(in srgb, var(--ambient-color) 10%, hsl(0, 80%, 60%)) 100%) no-repeat;
+    background: linear-gradient(to top, color-mix(in srgb, var(--ambient-color) 10%, hsl(220, 100%, 66%)) 0%, transparent 5px) no-repeat, linear-gradient(to bottom, color-mix(in srgb, var(--ambient-color) 10%, hsl(220, 100%, 66%)) 0%, transparent 5px) no-repeat, linear-gradient(to right, color-mix(in srgb, white 25%, transparent) 0%, color-mix(in srgb, white 50%, transparent) calc(5% + 2px), color-mix(in srgb, white 50%, transparent) calc(15% + 2px), transparent calc(50% + 2px)) no-repeat, linear-gradient(to right, color-mix(in srgb, var(--light-color) 10%, hsl(220, 100%, 66%)) 0%, hsl(220, 100%, 66%) 50%, color-mix(in srgb, var(--ambient-color) 10%, hsl(220, 100%, 66%)) 100%) no-repeat;
   }
 }
 /******************************************************************************\
@@ -3438,20 +3438,20 @@ body:not(.binary).chalk-sliders.colored input[type=range].colored.error::-ms-thu
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.chalk-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active, body:not(.binary).colored.colored.chalk.auto-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
     transform: scale(-1) rotate(var(--light-direction));
   }
   body:not(.binary).colored.colored.chalk-sliders input[type=range]:not(.colored)::-moz-range-thumb:active, body:not(.binary).colored.colored.chalk.auto-sliders input[type=range]:not(.colored)::-moz-range-thumb:active {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
     transform: scale(-1) rotate(var(--light-direction));
   }
   body:not(.binary).colored.colored.chalk-sliders input[type=range]:not(.colored)::-ms-thumb:active, body:not(.binary).colored.colored.chalk.auto-sliders input[type=range]:not(.colored)::-ms-thumb:active {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
     transform: scale(-1) rotate(var(--light-direction));
   }
 }
@@ -3513,8 +3513,8 @@ body:not(.binary).chalk-sliders.colored input[type=range].colored.error::-ms-thu
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.chalk-tabs ul.nav-tabs > li.active > a, body:not(.binary).colored.colored.chalk-tabs ul.nav-tabs > li.active > a:focus, body:not(.binary).colored.colored.chalk.auto-tabs ul.nav-tabs > li.active > a, body:not(.binary).colored.colored.chalk.auto-tabs ul.nav-tabs > li.active > a:focus {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, transparent 10px) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.1) 0%, transparent 10px) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -3763,33 +3763,33 @@ body:not(.binary).colored.plastic-buttons .btn:not(.btn-primary):not(.colored):n
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.plastic-buttons .btn.btn-primary, body:not(.binary).colored.colored.plastic.auto-buttons .btn.btn-primary {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colored.plastic-buttons .btn.btn-primary:hover, body:not(.binary).colored.colored.plastic.auto-buttons .btn.btn-primary:hover {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: #e61a1a;
-    border-color: #cf1724;
+    background-color: #1f69ff;
+    border-color: #1c5ff2;
   }
   body:not(.binary).colored.colored.plastic-buttons .btn.btn-primary:active, body:not(.binary).colored.colored.plastic.auto-buttons .btn.btn-primary:active {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: #b81414;
-    border-color: #a6121f;
+    background-color: #004eeb;
+    border-color: #0046e0;
   }
   body:not(.binary).colored.colored.plastic-buttons .btn.btn-primary:disabled, body:not(.binary).colored.colored.plastic.auto-buttons .btn.btn-primary:disabled {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: #c67487;
-    border-color: #b26886;
+    background-color: #7996e3;
+    border-color: #6d87d9;
   }
   body:not(.binary).colored.colored.plastic-buttons .btn.btn-primary:disabled:hover, body:not(.binary).colored.colored.plastic.auto-buttons .btn.btn-primary:disabled:hover {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: #b75068;
-    border-color: #a5486a;
+    background-color: #4f75da;
+    border-color: #4769d1;
   }
   body:not(.binary).colored.colored.plastic-buttons .btn.btn-primary:disabled:active, body:not(.binary).colored.colored.plastic.auto-buttons .btn.btn-primary:disabled:active {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: #963e52;
-    border-color: #873857;
+    background-color: #2b57cb;
+    border-color: #274ec3;
   }
 }
 /******************************************************************************\
@@ -3870,14 +3870,14 @@ body:not(.binary).colored.plastic-buttons .btn:not(.btn-primary):not(.colored):n
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.plastic-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle, body:not(.binary).colored.colored.plastic-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:focus, body:not(.binary).colored.colored.plastic.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle, body:not(.binary).colored.colored.plastic.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:focus {
-    background: linear-gradient(to right, #d4404d 0%, transparent 10px) no-repeat, linear-gradient(to left, #d4404d 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, rgba(255, 255, 255, 0.75) 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, hsl(0, 80%, 60%) 50%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background: linear-gradient(to right, #4a7df2 0%, transparent 10px) no-repeat, linear-gradient(to left, #4a7df2 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, rgba(255, 255, 255, 0.75) 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, hsl(220, 100%, 66%) 50%) no-repeat;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colored.plastic-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:active, body:not(.binary).colored.colored.plastic.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:active {
-    background: linear-gradient(to right, #cf1724 0%, transparent 10px) no-repeat, linear-gradient(to left, #cf1724 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, rgba(255, 255, 255, 0.75) 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, #e61a1a 50%) no-repeat;
-    background-color: #e61a1a;
-    border-color: #cf1724;
+    background: linear-gradient(to right, #1c5ff2 0%, transparent 10px) no-repeat, linear-gradient(to left, #1c5ff2 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, rgba(255, 255, 255, 0.75) 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, #1f69ff 50%) no-repeat;
+    background-color: #1f69ff;
+    border-color: #1c5ff2;
   }
 }
 /******************************************************************************\
@@ -3947,19 +3947,19 @@ body:not(.binary).colored.plastic-buttons .btn:not(.btn-primary):not(.colored):n
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.plastic-menus .menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.plastic-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.plastic.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.plastic.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled).open > a {
-    background: linear-gradient(to right, #d4404d 0%, transparent 10px) no-repeat, linear-gradient(to left, #d4404d 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, rgba(255, 255, 255, 0.75) 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, hsl(0, 80%, 60%) 50%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background: linear-gradient(to right, #4a7df2 0%, transparent 10px) no-repeat, linear-gradient(to left, #4a7df2 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, rgba(255, 255, 255, 0.75) 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, hsl(220, 100%, 66%) 50%) no-repeat;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colored.plastic-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.plastic-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.plastic.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.plastic.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:hover {
-    background: linear-gradient(to right, #d4404d 0%, transparent 10px) no-repeat, linear-gradient(to left, #d4404d 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, rgba(255, 255, 255, 0.75) 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, hsl(0, 80%, 60%) 50%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background: linear-gradient(to right, #4a7df2 0%, transparent 10px) no-repeat, linear-gradient(to left, #4a7df2 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, rgba(255, 255, 255, 0.75) 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, hsl(220, 100%, 66%) 50%) no-repeat;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colored.plastic-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.plastic-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.plastic.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.plastic.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:active {
-    background: linear-gradient(to right, #cf1724 0%, transparent 10px) no-repeat, linear-gradient(to left, #cf1724 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, rgba(255, 255, 255, 0.75) 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, #e61a1a 50%) no-repeat;
-    background-color: #e61a1a;
-    border-color: #cf1724;
+    background: linear-gradient(to right, #1c5ff2 0%, transparent 10px) no-repeat, linear-gradient(to left, #1c5ff2 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, rgba(255, 255, 255, 0.75) 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, #1f69ff 50%) no-repeat;
+    background-color: #1f69ff;
+    border-color: #1c5ff2;
   }
 }
 /******************************************************************************\
@@ -4034,8 +4034,8 @@ body:not(.binary).colored.plastic-buttons .btn:not(.btn-primary):not(.colored):n
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.plastic .navbar .indicator .bar .inner {
-    background: linear-gradient(to right, #d4404d 0%, transparent 5px) no-repeat, linear-gradient(to left, #d4404d 0%, transparent 5px) no-repeat, linear-gradient(to bottom, transparent 0%, white calc(7.5% + 2px), white calc(12.5% + 2px), transparent calc(33% + 2px)) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    border-color: #d4404d;
+    background: linear-gradient(to right, #4a7df2 0%, transparent 5px) no-repeat, linear-gradient(to left, #4a7df2 0%, transparent 5px) no-repeat, linear-gradient(to bottom, transparent 0%, white calc(7.5% + 2px), white calc(12.5% + 2px), transparent calc(33% + 2px)) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -4096,8 +4096,8 @@ body:not(.binary).colored.plastic-buttons .btn:not(.btn-primary):not(.colored):n
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.plastic .flickity-page-dots .dot.is-selected {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -4174,10 +4174,10 @@ body:not(.binary).colored.plastic-buttons .btn:not(.btn-primary):not(.colored):n
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.plastic-scrollbars ::-webkit-scrollbar-thumb:active:horizontal, body:not(.binary).colored.colored.plastic.auto-scrollbars ::-webkit-scrollbar-thumb:active:horizontal {
-    background: linear-gradient(to right, #d4404d 0%, transparent 5px) no-repeat, linear-gradient(to left, #d4404d 0%, transparent 5px) no-repeat, linear-gradient(to bottom, transparent 0%, white calc(7.5% + 2px), white calc(12.5% + 2px), transparent calc(33% + 2px)) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
+    background: linear-gradient(to right, #4a7df2 0%, transparent 5px) no-repeat, linear-gradient(to left, #4a7df2 0%, transparent 5px) no-repeat, linear-gradient(to bottom, transparent 0%, white calc(7.5% + 2px), white calc(12.5% + 2px), transparent calc(33% + 2px)) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
   }
   body:not(.binary).colored.colored.plastic-scrollbars ::-webkit-scrollbar-thumb:active:vertical, body:not(.binary).colored.colored.plastic.auto-scrollbars ::-webkit-scrollbar-thumb:active:vertical {
-    background: linear-gradient(to bottom, #d4404d 0%, transparent 5px) no-repeat, linear-gradient(to top, #d4404d 0%, transparent 5px) no-repeat, linear-gradient(to right, transparent 0%, white calc(7.5% + 2px), white calc(12.5% + 2px), transparent calc(33% + 2px)) no-repeat, linear-gradient(to right, #d4404d 0, hsl(0, 80%, 60%) 50%, #d4404d 100%) no-repeat;
+    background: linear-gradient(to bottom, #4a7df2 0%, transparent 5px) no-repeat, linear-gradient(to top, #4a7df2 0%, transparent 5px) no-repeat, linear-gradient(to right, transparent 0%, white calc(7.5% + 2px), white calc(12.5% + 2px), transparent calc(33% + 2px)) no-repeat, linear-gradient(to right, #4a7df2 0, hsl(220, 100%, 66%) 50%, #4a7df2 100%) no-repeat;
   }
 }
 /******************************************************************************\
@@ -4326,18 +4326,18 @@ body:not(.binary).plastic-sliders.colored input[type=range].colored.error::-ms-t
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.plastic-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active, body:not(.binary).colored.colored.plastic.auto-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colored.plastic-sliders input[type=range]:not(.colored)::-moz-range-thumb:active, body:not(.binary).colored.colored.plastic.auto-sliders input[type=range]:not(.colored)::-moz-range-thumb:active {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
   body:not(.binary).colored.colored.plastic-sliders input[type=range]:not(.colored)::-ms-thumb:active, body:not(.binary).colored.colored.plastic.auto-sliders input[type=range]:not(.colored)::-ms-thumb:active {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -4397,9 +4397,9 @@ body:not(.binary).plastic-sliders.colored input[type=range].colored.error::-ms-t
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.plastic-tabs ul.nav-tabs > li.active > a, body:not(.binary).colored.colored.plastic-tabs ul.nav-tabs > li.active > a:focus, body:not(.binary).colored.colored.plastic.auto-tabs ul.nav-tabs > li.active > a, body:not(.binary).colored.colored.plastic.auto-tabs ul.nav-tabs > li.active > a:focus {
-    background: linear-gradient(to right, #d4404d 0%, transparent 10px) no-repeat, linear-gradient(to left, #d4404d 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, rgba(255, 255, 255, 0.75) 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, hsl(0, 80%, 60%) 50%) no-repeat;
-    background-color: hsl(0, 80%, 60%);
-    border-color: #d4404d;
+    background: linear-gradient(to right, #4a7df2 0%, transparent 10px) no-repeat, linear-gradient(to left, #4a7df2 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, rgba(255, 255, 255, 0.75) 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.25) 0%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, hsl(220, 100%, 66%) 50%) no-repeat;
+    background-color: hsl(220, 100%, 66%);
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -4647,34 +4647,34 @@ body:not(.binary).colored.glass-buttons .btn:not(.btn-primary):not(.colored):not
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.glass-buttons .btn.btn-primary, body:not(.binary).colored.colored.glass.auto-buttons .btn.btn-primary {
-    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #fbdada 0%, #ed5959 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(235, 71, 71, 0.5) 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #dce8ff 0%, #6397ff 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(82, 139, 255, 0.5) 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #3961d9;
   }
   body:not(.binary).colored.colored.glass-buttons .btn.btn-primary:hover, body:not(.binary).colored.colored.glass.auto-buttons .btn.btn-primary:hover {
-    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #fad1d1 0%, #e93131 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(230, 26, 26, 0.5) 100%) no-repeat;
-    background-color: #a11238;
-    border-color: #a11238;
+    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #d2e1ff 0%, #3578ff 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(31, 105, 255, 0.5) 100%) no-repeat;
+    background-color: #164ad9;
+    border-color: #164ad9;
   }
   body:not(.binary).colored.colored.glass-buttons .btn.btn-primary:active, body:not(.binary).colored.colored.glass.auto-buttons .btn.btn-primary:active {
-    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #f1d0d0 0%, #bf2c2c 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(184, 20, 20, 0.5) 100%) no-repeat;
-    background-color: #810e34;
-    border-color: #810e34;
+    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #ccdcfb 0%, #1a60ed 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(0, 78, 235, 0.5) 100%) no-repeat;
+    background-color: #0037cb;
+    border-color: #0037cb;
   }
   body:not(.binary).colored.colored.glass-buttons .btn.btn-primary:disabled, body:not(.binary).colored.colored.glass.auto-buttons .btn.btn-primary:disabled {
-    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #f4e3e7 0%, #cc8293 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(198, 116, 135, 0.5) 100%) no-repeat;
-    background-color: #8b5185;
-    border-color: #8b5185;
+    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #e4eaf9 0%, #86a1e6 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(121, 150, 227, 0.5) 100%) no-repeat;
+    background-color: #5569c5;
+    border-color: #5569c5;
   }
   body:not(.binary).colored.colored.glass-buttons .btn.btn-primary:disabled:hover, body:not(.binary).colored.colored.glass.auto-buttons .btn.btn-primary:disabled:hover {
-    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #f1dce1 0%, #be6277 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(183, 80, 104, 0.5) 100%) no-repeat;
-    background-color: #80386f;
-    border-color: #80386f;
+    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #dce3f8 0%, #6183de 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(79, 117, 218, 0.5) 100%) no-repeat;
+    background-color: #3752bf;
+    border-color: #3752bf;
   }
   body:not(.binary).colored.colored.glass-buttons .btn.btn-primary:disabled:active, body:not(.binary).colored.colored.glass.auto-buttons .btn.btn-primary:disabled:active {
-    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #ead8dc 0%, #a15163 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(150, 62, 82, 0.5) 100%) no-repeat;
-    background-color: #692b60;
-    border-color: #692b60;
+    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #d5ddf5 0%, #4068d0 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(43, 87, 203, 0.5) 100%) no-repeat;
+    background-color: #1e3db4;
+    border-color: #1e3db4;
   }
 }
 /******************************************************************************\
@@ -4755,14 +4755,14 @@ body:not(.binary).colored.glass-buttons .btn:not(.btn-primary):not(.colored):not
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.glass-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle, body:not(.binary).colored.colored.glass-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:focus, body:not(.binary).colored.colored.glass.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle, body:not(.binary).colored.colored.glass.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:focus {
-    background: linear-gradient(to right, #a53258 0%, transparent 10px) no-repeat, linear-gradient(to left, #a53258 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, white 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #ef6c6c 75%, rgba(235, 71, 71, 0.5) 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #a53258;
+    background: linear-gradient(to right, #3961d9 0%, transparent 10px) no-repeat, linear-gradient(to left, #3961d9 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, white 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #75a2ff 75%, rgba(82, 139, 255, 0.5) 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #3961d9;
   }
   body:not(.binary).colored.colored.glass-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:active, body:not(.binary).colored.colored.glass.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:active {
-    background: linear-gradient(to right, #a11238 0%, transparent 10px) no-repeat, linear-gradient(to left, #a11238 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, white 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #eb4848 75%, rgba(230, 26, 26, 0.5) 100%) no-repeat;
-    background-color: #a11238;
-    border-color: #a11238;
+    background: linear-gradient(to right, #164ad9 0%, transparent 10px) no-repeat, linear-gradient(to left, #164ad9 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, white 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #4c87ff 75%, rgba(31, 105, 255, 0.5) 100%) no-repeat;
+    background-color: #164ad9;
+    border-color: #164ad9;
   }
 }
 /******************************************************************************\
@@ -4832,19 +4832,19 @@ body:not(.binary).colored.glass-buttons .btn:not(.btn-primary):not(.colored):not
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.glass-menus .menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.glass-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.glass.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.glass.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled).open > a {
-    background: linear-gradient(to right, #a53258 0%, transparent 10px) no-repeat, linear-gradient(to left, #a53258 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, white 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #ef6c6c 75%, rgba(235, 71, 71, 0.5) 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #a53258;
+    background: linear-gradient(to right, #3961d9 0%, transparent 10px) no-repeat, linear-gradient(to left, #3961d9 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, white 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #75a2ff 75%, rgba(82, 139, 255, 0.5) 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #3961d9;
   }
   body:not(.binary).colored.colored.glass-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.glass-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.glass.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.glass.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:hover {
-    background: linear-gradient(to right, #a53258 0%, transparent 10px) no-repeat, linear-gradient(to left, #a53258 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, white 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #ef6c6c 75%, rgba(235, 71, 71, 0.5) 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #a53258;
+    background: linear-gradient(to right, #3961d9 0%, transparent 10px) no-repeat, linear-gradient(to left, #3961d9 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, white 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #75a2ff 75%, rgba(82, 139, 255, 0.5) 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #3961d9;
   }
   body:not(.binary).colored.colored.glass-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.glass-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.glass.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.glass.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:active {
-    background: linear-gradient(to right, #a11238 0%, transparent 10px) no-repeat, linear-gradient(to left, #a11238 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, white 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #eb4848 75%, rgba(230, 26, 26, 0.5) 100%) no-repeat;
-    background-color: #a11238;
-    border-color: #a11238;
+    background: linear-gradient(to right, #164ad9 0%, transparent 10px) no-repeat, linear-gradient(to left, #164ad9 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, white 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #4c87ff 75%, rgba(31, 105, 255, 0.5) 100%) no-repeat;
+    background-color: #164ad9;
+    border-color: #164ad9;
   }
 }
 /******************************************************************************\
@@ -4919,8 +4919,8 @@ body:not(.binary).colored.glass-buttons .btn:not(.btn-primary):not(.colored):not
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.glass .navbar .indicator .bar .inner {
-    background: linear-gradient(to right, #b03555 0%, transparent 5px) no-repeat, linear-gradient(to left, #b03555 0%, transparent 5px) no-repeat, linear-gradient(to bottom, transparent 0%, white calc(7.5% + 2px), white calc(12.5% + 2px), transparent calc(33% + 2px)) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #ed5959 calc(70% + 2px), #ed5959 calc(80% + 2px), hsl(0, 80%, 60%) 100%) no-repeat, #a53258;
-    border-color: #d4404d;
+    background: linear-gradient(to right, #3e68df 0%, transparent 5px) no-repeat, linear-gradient(to left, #3e68df 0%, transparent 5px) no-repeat, linear-gradient(to bottom, transparent 0%, white calc(7.5% + 2px), white calc(12.5% + 2px), transparent calc(33% + 2px)) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #6397ff calc(70% + 2px), #6397ff calc(80% + 2px), hsl(220, 100%, 66%) 100%) no-repeat, #3961d9;
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -4980,9 +4980,9 @@ body:not(.binary).colored.glass-buttons .btn:not(.btn-primary):not(.colored):not
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.glass .flickity-page-dots .dot.is-selected {
-    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #fbdada 0%, #ed5959 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(235, 71, 71, 0.5) 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #dce8ff 0%, #6397ff 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(82, 139, 255, 0.5) 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #3961d9;
   }
 }
 /******************************************************************************\
@@ -5059,10 +5059,10 @@ body:not(.binary).colored.glass-buttons .btn:not(.btn-primary):not(.colored):not
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.glass-scrollbars ::-webkit-scrollbar-thumb:active:horizontal, body:not(.binary).colored.colored.glass.auto-scrollbars ::-webkit-scrollbar-thumb:active:horizontal {
-    background: linear-gradient(to right, #b03555 0%, transparent 5px) no-repeat, linear-gradient(to left, #b03555 0%, transparent 5px) no-repeat, linear-gradient(to bottom, transparent 0%, white calc(7.5% + 2px), white calc(12.5% + 2px), transparent calc(33% + 2px)) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #ed5959 calc(70% + 2px), #ed5959 calc(80% + 2px), hsl(0, 80%, 60%) 100%) no-repeat, #a53258;
+    background: linear-gradient(to right, #3e68df 0%, transparent 5px) no-repeat, linear-gradient(to left, #3e68df 0%, transparent 5px) no-repeat, linear-gradient(to bottom, transparent 0%, white calc(7.5% + 2px), white calc(12.5% + 2px), transparent calc(33% + 2px)) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #6397ff calc(70% + 2px), #6397ff calc(80% + 2px), hsl(220, 100%, 66%) 100%) no-repeat, #3961d9;
   }
   body:not(.binary).colored.colored.glass-scrollbars ::-webkit-scrollbar-thumb:active:vertical, body:not(.binary).colored.colored.glass.auto-scrollbars ::-webkit-scrollbar-thumb:active:vertical {
-    background: linear-gradient(to bottom, #b03555 0%, transparent 5px) no-repeat, linear-gradient(to top, #b03555 0%, transparent 5px) no-repeat, linear-gradient(to right, transparent 0%, white calc(7.5% + 2px), white calc(12.5% + 2px), transparent calc(33% + 2px)) no-repeat, linear-gradient(to right, transparent 33%, #ed5959 calc(70% + 2px), #ed5959 calc(80% + 2px), hsl(0, 80%, 60%) 100%) no-repeat, #a53258;
+    background: linear-gradient(to bottom, #3e68df 0%, transparent 5px) no-repeat, linear-gradient(to top, #3e68df 0%, transparent 5px) no-repeat, linear-gradient(to right, transparent 0%, white calc(7.5% + 2px), white calc(12.5% + 2px), transparent calc(33% + 2px)) no-repeat, linear-gradient(to right, transparent 33%, #6397ff calc(70% + 2px), #6397ff calc(80% + 2px), hsl(220, 100%, 66%) 100%) no-repeat, #3961d9;
   }
 }
 /******************************************************************************\
@@ -5222,21 +5222,21 @@ body:not(.binary).glass-sliders.colored input[type=range].colored.error::-ms-thu
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.glass-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active, body:not(.binary).colored.colored.glass.auto-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active {
-    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #fbdada 0%, #ed5959 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(235, 71, 71, 0.5) 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #dce8ff 0%, #6397ff 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(82, 139, 255, 0.5) 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #3961d9;
     transform: scale(-1) rotate(var(--light-direction));
   }
   body:not(.binary).colored.colored.glass-sliders input[type=range]:not(.colored)::-moz-range-thumb:active, body:not(.binary).colored.colored.glass.auto-sliders input[type=range]:not(.colored)::-moz-range-thumb:active {
-    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #fbdada 0%, #ed5959 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(235, 71, 71, 0.5) 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #dce8ff 0%, #6397ff 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(82, 139, 255, 0.5) 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #3961d9;
     transform: scale(-1) rotate(var(--light-direction));
   }
   body:not(.binary).colored.colored.glass-sliders input[type=range]:not(.colored)::-ms-thumb:active, body:not(.binary).colored.colored.glass.auto-sliders input[type=range]:not(.colored)::-ms-thumb:active {
-    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #fbdada 0%, #ed5959 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(235, 71, 71, 0.5) 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #dce8ff 0%, #6397ff 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(82, 139, 255, 0.5) 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #3961d9;
     transform: scale(-1) rotate(var(--light-direction));
   }
 }
@@ -5297,9 +5297,9 @@ body:not(.binary).glass-sliders.colored input[type=range].colored.error::-ms-thu
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.glass-tabs ul.nav-tabs > li.active > a, body:not(.binary).colored.colored.glass-tabs ul.nav-tabs > li.active > a:focus, body:not(.binary).colored.colored.glass.auto-tabs ul.nav-tabs > li.active > a, body:not(.binary).colored.colored.glass.auto-tabs ul.nav-tabs > li.active > a:focus {
-    background: linear-gradient(to right, #a53258 0%, transparent 10px) no-repeat, linear-gradient(to left, #a53258 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, white 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #ef6c6c 75%, rgba(235, 71, 71, 0.5) 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #a53258;
+    background: linear-gradient(to right, #3961d9 0%, transparent 10px) no-repeat, linear-gradient(to left, #3961d9 0%, transparent 10px) no-repeat, linear-gradient(var(--light-direction), transparent 0%, white 12.5%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, #75a2ff 75%, rgba(82, 139, 255, 0.5) 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #3961d9;
   }
 }
 /******************************************************************************\
@@ -5547,34 +5547,34 @@ body:not(.binary).colored.metal-buttons .btn:not(.btn-primary):not(.colored):not
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.metal-buttons .btn.btn-primary, body:not(.binary).colored.colored.metal.auto-buttons .btn.btn-primary {
-    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(239, 108, 108, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #eb4747 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(235, 71, 71, 0.5) 66%, #f17e7e 100%) no-repeat;
-    background-color: #762463;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(117, 162, 255, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #528bff 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(82, 139, 255, 0.5) 66%, #86aeff 100%) no-repeat;
+    background-color: #2946bf;
+    border-color: #3961d9;
   }
   body:not(.binary).colored.colored.metal-buttons .btn.btn-primary:hover, body:not(.binary).colored.colored.metal.auto-buttons .btn.btn-primary:hover {
-    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(235, 72, 72, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #e61a1a 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(230, 26, 26, 0.5) 66%, #ee5f5f 100%) no-repeat;
-    background-color: #730d4d;
-    border-color: #a11238;
+    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(76, 135, 255, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #1f69ff 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(31, 105, 255, 0.5) 66%, #6296ff 100%) no-repeat;
+    background-color: #1035bf;
+    border-color: #164ad9;
   }
   body:not(.binary).colored.colored.metal-buttons .btn.btn-primary:active, body:not(.binary).colored.colored.metal.auto-buttons .btn.btn-primary:active {
-    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(198, 67, 67, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #b81414 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(184, 20, 20, 0.5) 66%, #cd5b5b 100%) no-repeat;
-    background-color: #5c0a4a;
-    border-color: #810e34;
+    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(51, 113, 239, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #004eeb 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(0, 78, 235, 0.5) 66%, #4d83f1 100%) no-repeat;
+    background-color: #0027b5;
+    border-color: #0037cb;
   }
   body:not(.binary).colored.colored.metal-buttons .btn.btn-primary:disabled, body:not(.binary).colored.colored.metal.auto-buttons .btn.btn-primary:disabled {
-    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(209, 144, 159, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #c67487 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(198, 116, 135, 0.5) 66%, #d79eab 100%) no-repeat;
-    background-color: #633a83;
-    border-color: #8b5185;
+    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(148, 171, 233, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #7996e3 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(121, 150, 227, 0.5) 66%, #a1b6eb 100%) no-repeat;
+    background-color: #3d4bb1;
+    border-color: #5569c5;
   }
   body:not(.binary).colored.colored.metal-buttons .btn.btn-primary:disabled:hover, body:not(.binary).colored.colored.metal.auto-buttons .btn.btn-primary:disabled:hover {
-    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(197, 115, 134, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #b75068 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(183, 80, 104, 0.5) 66%, #cd8595 100%) no-repeat;
-    background-color: #5c2874;
-    border-color: #80386f;
+    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(114, 145, 225, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #4f75da 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(79, 117, 218, 0.5) 66%, #849ee5 100%) no-repeat;
+    background-color: #283bad;
+    border-color: #3752bf;
   }
   body:not(.binary).colored.colored.metal-buttons .btn.btn-primary:disabled:active, body:not(.binary).colored.colored.metal.auto-buttons .btn.btn-primary:disabled:active {
-    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(171, 101, 117, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #963e52 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(150, 62, 82, 0.5) 66%, #b67886 100%) no-repeat;
-    background-color: #4b1f69;
-    border-color: #692b60;
+    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(85, 121, 213, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #2b57cb 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(43, 87, 203, 0.5) 66%, #6b89db 100%) no-repeat;
+    background-color: #162ca5;
+    border-color: #1e3db4;
   }
 }
 /******************************************************************************\
@@ -5655,14 +5655,14 @@ body:not(.binary).colored.metal-buttons .btn:not(.btn-primary):not(.colored):not
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.metal-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle, body:not(.binary).colored.colored.metal-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:focus, body:not(.binary).colored.colored.metal.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle, body:not(.binary).colored.colored.metal.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:focus {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), #f7b5b5 0%, #f17e7e 25%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, #ed5959 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #bc3952;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), #bad1ff 0%, #86aeff 25%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, #6397ff 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #426fe5;
   }
   body:not(.binary).colored.colored.metal-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:active, body:not(.binary).colored.colored.metal.auto-menus .menu-bar > .nav-menus > .dropdown.open > .dropdown-toggle:active {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), #f5a3a3 0%, #ee5f5f 25%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, #e93131 100%) no-repeat;
-    background-color: #a11238;
-    border-color: #b8152e;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), #a5c3ff 0%, #6296ff 25%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, #3578ff 100%) no-repeat;
+    background-color: #164ad9;
+    border-color: #1954e5;
   }
 }
 /******************************************************************************\
@@ -5732,19 +5732,19 @@ body:not(.binary).colored.metal-buttons .btn:not(.btn-primary):not(.colored):not
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.metal-menus .menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.metal-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.metal.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled).open > a, body:not(.binary).colored.colored.metal.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled).open > a {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), #f7b5b5 0%, #f17e7e 25%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, #ed5959 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #bc3952;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), #bad1ff 0%, #86aeff 25%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, #6397ff 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #426fe5;
   }
   body:not(.binary).colored.colored.metal-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.metal-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.metal.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:hover, body:not(.binary).colored.colored.metal.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:hover {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), #f7b5b5 0%, #f17e7e 25%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, #ed5959 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #bc3952;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), #bad1ff 0%, #86aeff 25%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, #6397ff 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #426fe5;
   }
   body:not(.binary).colored.colored.metal-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.metal-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.metal.auto-menus .menu > li:not(.dropdown-toggle):not(.disabled) a:active, body:not(.binary).colored.colored.metal.auto-menus .dropdown-menu > li:not(.dropdown-toggle):not(.disabled) a:active {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), #f5a3a3 0%, #ee5f5f 25%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, #e93131 100%) no-repeat;
-    background-color: #a11238;
-    border-color: #b8152e;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), #a5c3ff 0%, #6296ff 25%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, #3578ff 100%) no-repeat;
+    background-color: #164ad9;
+    border-color: #1954e5;
   }
 }
 /******************************************************************************\
@@ -5819,8 +5819,8 @@ body:not(.binary).colored.metal-buttons .btn:not(.btn-primary):not(.colored):not
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.metal .navbar .indicator .bar .inner {
-    background: linear-gradient(to right, #8d2b5d 0%, transparent 5px) no-repeat, linear-gradient(to left, #8d2b5d 0%, transparent 5px) no-repeat, linear-gradient(to bottom, #f07575 0%, #fad1d1 calc(5% + 2px), #fad1d1 calc(15% + 2px), transparent calc(50% + 2px)) no-repeat, linear-gradient(var(--light-direction), transparent 0%, hsl(0, 80%, 60%) 25%, transparent 75%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, color-mix(in srgb, var(--light-color) 10%, hsl(0, 80%, 60%)) 100%) no-repeat, #762463;
-    border-color: #d4404d;
+    background: linear-gradient(to right, #3153cc 0%, transparent 5px) no-repeat, linear-gradient(to left, #3153cc 0%, transparent 5px) no-repeat, linear-gradient(to bottom, #7da8ff 0%, #d4e2ff calc(5% + 2px), #d4e2ff calc(15% + 2px), transparent calc(50% + 2px)) no-repeat, linear-gradient(var(--light-direction), transparent 0%, hsl(220, 100%, 66%) 25%, transparent 75%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, color-mix(in srgb, var(--light-color) 10%, hsl(220, 100%, 66%)) 100%) no-repeat, #2946bf;
+    border-color: #4a7df2;
   }
 }
 /******************************************************************************\
@@ -5880,9 +5880,9 @@ body:not(.binary).colored.metal-buttons .btn:not(.btn-primary):not(.colored):not
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.metal .flickity-page-dots .dot.is-selected {
-    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(239, 108, 108, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #eb4747 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(235, 71, 71, 0.5) 66%, #f17e7e 100%) no-repeat;
-    background-color: #762463;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(117, 162, 255, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #528bff 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(82, 139, 255, 0.5) 66%, #86aeff 100%) no-repeat;
+    background-color: #2946bf;
+    border-color: #3961d9;
   }
 }
 /******************************************************************************\
@@ -5959,10 +5959,10 @@ body:not(.binary).colored.metal-buttons .btn:not(.btn-primary):not(.colored):not
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.metal-scrollbars ::-webkit-scrollbar-thumb:active:horizontal, body:not(.binary).colored.colored.metal.auto-scrollbars ::-webkit-scrollbar-thumb:active:horizontal {
-    background: linear-gradient(to right, #8d2b5d 0%, transparent 5px) no-repeat, linear-gradient(to left, #8d2b5d 0%, transparent 5px) no-repeat, linear-gradient(to bottom, #f07575 0%, #fad1d1 calc(5% + 2px), #fad1d1 calc(15% + 2px), transparent calc(50% + 2px)) no-repeat, linear-gradient(var(--light-direction), transparent 0%, hsl(0, 80%, 60%) 25%, transparent 75%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, color-mix(in srgb, var(--light-color) 10%, hsl(0, 80%, 60%)) 100%) no-repeat, #762463;
+    background: linear-gradient(to right, #3153cc 0%, transparent 5px) no-repeat, linear-gradient(to left, #3153cc 0%, transparent 5px) no-repeat, linear-gradient(to bottom, #7da8ff 0%, #d4e2ff calc(5% + 2px), #d4e2ff calc(15% + 2px), transparent calc(50% + 2px)) no-repeat, linear-gradient(var(--light-direction), transparent 0%, hsl(220, 100%, 66%) 25%, transparent 75%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, color-mix(in srgb, var(--light-color) 10%, hsl(220, 100%, 66%)) 100%) no-repeat, #2946bf;
   }
   body:not(.binary).colored.colored.metal-scrollbars ::-webkit-scrollbar-thumb:active:vertical, body:not(.binary).colored.colored.metal.auto-scrollbars ::-webkit-scrollbar-thumb:active:vertical {
-    background: linear-gradient(to bottom, #8d2b5d 0%, transparent 5px) no-repeat, linear-gradient(to top, #8d2b5d 0%, transparent 5px) no-repeat, linear-gradient(to right, #f07575 0%, #fad1d1 calc(5% + 2px), #fad1d1 calc(15% + 2px), transparent calc(50% + 2px)) no-repeat, linear-gradient(to right, transparent 0%, hsl(0, 80%, 60%) 25%, transparent 75%) no-repeat, linear-gradient(to right, transparent 66%, #ed5959 100%) no-repeat, color-mix(in srgb, var(--ambient-color) 50%, hsl(0, 80%, 60%));
+    background: linear-gradient(to bottom, #3153cc 0%, transparent 5px) no-repeat, linear-gradient(to top, #3153cc 0%, transparent 5px) no-repeat, linear-gradient(to right, #7da8ff 0%, #d4e2ff calc(5% + 2px), #d4e2ff calc(15% + 2px), transparent calc(50% + 2px)) no-repeat, linear-gradient(to right, transparent 0%, hsl(220, 100%, 66%) 25%, transparent 75%) no-repeat, linear-gradient(to right, transparent 66%, #6397ff 100%) no-repeat, color-mix(in srgb, var(--ambient-color) 50%, hsl(220, 100%, 66%));
   }
 }
 /******************************************************************************\
@@ -6122,21 +6122,21 @@ body:not(.binary).metal-sliders.colored input[type=range].colored.error::-ms-thu
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.metal-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active, body:not(.binary).colored.colored.metal.auto-sliders input[type=range]:not(.colored)::-webkit-slider-thumb:active {
-    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(239, 108, 108, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #eb4747 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(235, 71, 71, 0.5) 66%, #f17e7e 100%) no-repeat;
-    background-color: #762463;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(117, 162, 255, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #528bff 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(82, 139, 255, 0.5) 66%, #86aeff 100%) no-repeat;
+    background-color: #2946bf;
+    border-color: #3961d9;
     transform: scale(-1) rotate(var(--light-direction));
   }
   body:not(.binary).colored.colored.metal-sliders input[type=range]:not(.colored)::-moz-range-thumb:active, body:not(.binary).colored.colored.metal.auto-sliders input[type=range]:not(.colored)::-moz-range-thumb:active {
-    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(239, 108, 108, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #eb4747 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(235, 71, 71, 0.5) 66%, #f17e7e 100%) no-repeat;
-    background-color: #762463;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(117, 162, 255, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #528bff 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(82, 139, 255, 0.5) 66%, #86aeff 100%) no-repeat;
+    background-color: #2946bf;
+    border-color: #3961d9;
     transform: scale(-1) rotate(var(--light-direction));
   }
   body:not(.binary).colored.colored.metal-sliders input[type=range]:not(.colored)::-ms-thumb:active, body:not(.binary).colored.colored.metal.auto-sliders input[type=range]:not(.colored)::-ms-thumb:active {
-    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(239, 108, 108, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #eb4747 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(235, 71, 71, 0.5) 66%, #f17e7e 100%) no-repeat;
-    background-color: #762463;
-    border-color: #a53258;
+    background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(117, 162, 255, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #528bff 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(82, 139, 255, 0.5) 66%, #86aeff 100%) no-repeat;
+    background-color: #2946bf;
+    border-color: #3961d9;
     transform: scale(-1) rotate(var(--light-direction));
   }
 }
@@ -6197,9 +6197,9 @@ body:not(.binary).metal-sliders.colored input[type=range].colored.error::-ms-thu
 }
 @supports not (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.colored.metal-tabs ul.nav-tabs > li.active > a, body:not(.binary).colored.colored.metal-tabs ul.nav-tabs > li.active > a:focus, body:not(.binary).colored.colored.metal.auto-tabs ul.nav-tabs > li.active > a, body:not(.binary).colored.colored.metal.auto-tabs ul.nav-tabs > li.active > a:focus {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), #f7b5b5 0%, #f17e7e 25%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, #ed5959 100%) no-repeat;
-    background-color: #a53258;
-    border-color: #bc3952;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(to left, rgba(0, 0, 0, 0.2) 0%, transparent 25%) no-repeat, linear-gradient(var(--light-direction), #bad1ff 0%, #86aeff 25%, transparent 50%) no-repeat, linear-gradient(var(--light-direction), transparent 66%, #6397ff 100%) no-repeat;
+    background-color: #3961d9;
+    border-color: #426fe5;
   }
 }
 /******************************************************************************\
