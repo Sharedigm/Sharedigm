@@ -5,6 +5,7 @@ mysql/
 storage/log/
 private/
 backups/
+deprecated/
 electron/
 presentations/
 *.swp
